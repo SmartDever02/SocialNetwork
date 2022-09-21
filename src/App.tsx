@@ -8,6 +8,7 @@ import image from './assets/images/image.svg';
 import video from './assets/images/video.svg';
 import dots from './assets/images/dotdotdot.svg';
 import shoot from './assets/images/shootMessage.svg';
+import AsideBar from './components/Aside';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         </div>
       </header>
 
-      <main className='flex px-10'>
+      <main className='flex pl-10 justify-between'>
         <Sidebar />
         <div className='mt-10'>
           <div className='bg-white w-[750px] h-[220px] border-b-[4px] border-b-[#06C0D9] rounded-t-[10px] px-6 pt-4'>
@@ -71,6 +72,7 @@ function App() {
             </p>
           </div>
         </div>
+        <AsideBar />
       </main>
     </div>
   );

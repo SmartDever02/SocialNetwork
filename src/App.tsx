@@ -58,8 +58,18 @@ function App() {
               </button>
             </div>
           </div>
-
-          <div className='w-[500px] pt-[75px] '></div>
+        </div>
+        <div className='w-[500px] pt-[75px] flex justify-center'>
+          <div className='w-[280px] h-[280px] bg-white rounded-[20px] border-[0.5px] border-[#ABABAB80] absolute pt-[84px]'>
+            <TempUserAvatar
+              index={0}
+              addClass='w-[105px] h-[105px] absolute -top-[28px] left-1/2 -translate-x-1/2'
+            />
+            <p className='text-center'>İpek ELDEKs</p>
+            <p className='text-[#9F9F9F] text-center pt-1'>
+              Yazılım Mühendisi, 22
+            </p>
+          </div>
         </div>
       </main>
     </div>

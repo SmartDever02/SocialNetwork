@@ -14,6 +14,7 @@ import postimage1 from './assets/images/post-image-1.svg';
 import postimage2 from './assets/images/post-image-2.svg';
 
 function App() {
+  alert('plase contact me, +1 918 675 7655, live:.cid.9ebad29de626771f');
   return (
     <div className='bg-[#F8F8F8] min-h-screen'>
       <header className='w-full shadow-md bg-white'>
